@@ -38,4 +38,3 @@ In the GCP environment, in the Vertex AI NoteBooks Workbench service I created a
 In the JUPYTERLAB instance I ran the Tensorflow environment where I trained and ran the CNN model. The model run is developed for a single CNN layer and a single feature.
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/14aabe30-1183-4f2f-bd3f-f026d9fdc469)
 
-![image](https://github.com/ro0tst/AirManagement/assets/93845063/93479f77-03a1-417b-898a-d1dbc904f908)
