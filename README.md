@@ -2,7 +2,7 @@
 The project aims to reduce and predict the consumption of compressed air, used in industrial production processes.
 The project was divided into two areas:
 1. Integration of air consumption data (instantaneous flow, pressure, temperature, total flow consumed) from the OT area to the IT area
-2. Prediction of air consumption (total air flow rate consumed) of air using the architecture of Convolutional Neuronal Networks (CNN) and Generative Adversarial Network (GAN)
+2. Forecasting of air consumption (total air flow rate consumed) of air using the architecture of Convolutional Neuronal Networks (CNN) and Generative Adversarial Network (GAN)
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/fd3f6e59-ff78-4d0c-994e-ab557ed6bf3b)
 
 Integration of data from OT in IT
@@ -12,6 +12,11 @@ Below you will find a link to the manufacturer's page
 https://www.smcworld.com/webcatalog/en-jp/air-management-system/air-management-system/AMS_AB-E/#detail
 The choice of this product was determined by the fact that the technical characteristics regarding data ingestion, towards the IT area, are based on the OPC UA protocol.
 Data access, using the OPC UA protocol, allows us independence from the master controller of the utility, on which this device is installed. In this way, we were no longer restricted by the old data architecture, industrial processes and possible security restrictions, imposed by the manufacturer of the use we wanted to optimize.
+Through the OPC UA server integrated in the Air Management System (AMS), we mapped the variables, temperature, flow, pressure and total flow.
+Through the open Node Red environment, used as middleware, we integrated the OPC UA variable values with the Pub/Sub services. To keep the industrial character of the integration environment, we used the CtrX controller from Bosch as hardware support for Node Red.
+![image](https://github.com/ro0tst/AirManagement/assets/93845063/12a23476-cda2-42a5-8d46-16ab3bd940e9)
+
+The hardware components were interconnected using an industrial switch with traffic management and monitoring, class 3 netload from the manufacturer InduSol. In this way, we were also able to monitor the data traffic between the components.
 This stage had as its final goal the capture of the data coming from the Air Management System (AMS) equipment, in real time in the Google Cloud platform (Data Wharehouse - BigQuery) and the use of BI tools (Looker Studio) for data visualization.
 During the implementation of the project, there was another request, coming from an industrial partner, that the real-time ingestion of the data be done on-received, in MySQL.
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/a047be97-76ea-4fe8-a493-6434a5faa43c)
