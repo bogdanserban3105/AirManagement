@@ -32,7 +32,6 @@ Detecting Local Patterns: CNNs specialize in detecting local patterns in data. I
 Generative dataset expansion: As our dataset was limited, Generative Adversarial Networks (GANs) could be integrated into a CNN architecture to generate additional realistic examples.
 Hierarchical representation of features: CNNs are capable of learning hierarchies of features, from simple to complex. This hierarchical approach can be useful in identifying different levels of influence on compressed air consumption.
 
-In the GCP environment, in the Vertex AI NoteBooks Workbench service I created a new tensorflow-airmanagement-smc instance for JUPYTERLAB
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/96e18821-9d09-4c5b-b2cf-66bc25eaa0ee)
 
 In the GCP environment, in the Vertex AI NoteBooks Workbench service I created a new tensorflow-airmanagement-smc instance for JUPYTERLAB
