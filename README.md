@@ -35,3 +35,6 @@ Hierarchical representation of features: CNNs are capable of learning hierarchie
 In the GCP environment, in the Vertex AI NoteBooks Workbench service I created a new tensorflow-airmanagement-smc instance for JUPYTERLAB
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/96e18821-9d09-4c5b-b2cf-66bc25eaa0ee)
 
+In the GCP environment, in the Vertex AI NoteBooks Workbench service I created a new tensorflow-airmanagement-smc instance for JUPYTERLAB
+In the JUPYTERLAB instance I ran the Tensorflow environment where I trained and ran the CNN model. The model run is developed for a single CNN layer and a single feature.
+![image](https://github.com/ro0tst/AirManagement/assets/93845063/93479f77-03a1-417b-898a-d1dbc904f908)
