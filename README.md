@@ -19,6 +19,8 @@ Through the open Node Red environment, used as middleware, we integrated the OPC
 The hardware components were interconnected using an industrial switch with traffic management and monitoring, class 3 netload from the manufacturer InduSol. In this way, we were also able to monitor the data traffic between the components.
 This stage had as its final goal the capture of the data coming from the Air Management System (AMS) equipment, in real time in the Google Cloud platform (Data Wharehouse - BigQuery) and the use of BI tools (Looker Studio) for data visualization.
 During the implementation of the project, there was another request, coming from an industrial partner, that the real-time ingestion of the data be done on-received, in MySQL.
+![image](https://github.com/ro0tst/AirManagement/assets/93845063/d18d2386-1f6a-436a-b13d-cb16c7877ff8)
+
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/a047be97-76ea-4fe8-a493-6434a5faa43c)
 
 Forecasting
