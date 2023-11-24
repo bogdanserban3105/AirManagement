@@ -6,6 +6,7 @@ Proiectul a fost impartit in doua zone:
 ![image](https://github.com/ro0tst/AirManagement/assets/93845063/fd3f6e59-ff78-4d0c-994e-ab557ed6bf3b)
 
 Integrarea datelor dinOT in IT
+![image](https://github.com/ro0tst/AirManagement/assets/93845063/1e91d86f-40aa-4ca9-b30d-da1798aa5872)
 Pentru reducerea consumului de aer, am dorit sa integram in arhitectura de date, echipamentului industrial Air Management System (AMS), producator firma SMC.
 Mai jos gasiti un link catre pagina producatorului
 https://www.smcworld.com/webcatalog/en-jp/air-management-system/air-management-system/AMS_AB-E/#detail
